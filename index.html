@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aaranya Bakehouse is a premier boutique bakery offering handcrafted custom cakes, artisanal cupcakes, gourmet cookies and curated dessert boxes for celebrations and gifting.">
+  <meta name="keywords" content="custom cakes, home bakery, artisanal bakery, celebration cakes, birthday cakes, cupcakes, gourmet cookies, dessert boxes, personalised cakes, bespoke bakery">
+  <meta name="author" content="Himani Gupta - Aaranya Bakehouse">
+  <title>Aaranya Bakehouse | Artisanal Custom Cakes & Celebration Bakes</title>
+  
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Aaranya Bakehouse | Artisanal Custom Cakes & Celebration Bakes">
+  <meta property="og:description" content="Handcrafted cakes, cupcakes, cookies and dessert boxes made with 100% pure butter and Belgian chocolate. Enquire for your next celebration.">
+  <meta property="og:image" content="images/hero-cake.jpg">
+  
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Structured Data: LocalBusiness / Bakery Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Bakery",
+    "name": "Aaranya Bakehouse",
+    "image": "images/hero-cake.jpg",
+    "description": "Boutique artisan bakery specialising in custom celebration cakes, cupcakes, cookies and dessert gift boxes.",
+    "priceRange": "₹₹",
+    "servesCuisine": "Baking, Desserts, Artisan Pastry",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Delhi NCR",
+      "addressCountry": "IN"
+    },
+    "telephone": "+91-98765-43210",
+    "openingHours": "Mo-Su 09:00-20:00"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ==================== HEADER ==================== -->
+  <header class="header" role="banner">
+    <div class="header__inner">
+      <a href="index.html" class="logo" aria-label="Aaranya Bakehouse Home">
+        <span class="logo__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2.26c1.81-1.27 3-3.36 3-5.74 0-3.87-3.13-7-7-7zm-3 18c0 .55.45 1 1 1h4c.55 0 1-.45 1-1v-1H9v1z"/>
+          </svg>
+        </span>
+        Aaranya Bakehouse
+      </a>
+
+      <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link active">Home</a></li>
+          <li><a href="about.html" class="nav__link">About Us</a></li>
+          <li><a href="products.html" class="nav__link">Products / Services</a></li>
+          <li><a href="contact.html" class="nav__link">Contact Us</a></li>
+          <li class="nav__cta">
+            <a href="contact.html" class="btn btn--primary">Send an Enquiry</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero--split">
+        <div class="hero__content">
+          <div class="hero__badge">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+            </svg>
+            Bespoke Celebration Bakes & Gifting
+          </div>
+          <h1 id="hero-title" class="hero__title">
+            Artisanal Bakes Crafted for Your <em>Special Moments</em>
+          </h1>
+          <p class="hero__subtitle">
+            Aaranya Bakehouse creates fresh, customised celebration cakes, gourmet cupcakes, chunky cookies and curated dessert boxes — handcrafted in small batches with genuine care and pure ingredients.
+          </p>
+          <div class="hero__actions">
+            <a href="products.html" class="btn btn--primary">Explore Menu & Offerings</a>
+            <a href="contact.html" class="btn btn--secondary">Custom Order Enquiry</a>
+          </div>
+
+          <div class="hero__stats">
+            <div class="stat-item">
+              <div class="stat-item__num">500+</div>
+              <div class="stat-item__label">Celebrations Served</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-item__num">100%</div>
+              <div class="stat-item__label">Pure Butter & Cocoa</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-item__num">4.9 ★</div>
+              <div class="stat-item__label">Customer Satisfaction</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__visual">
+          <div class="hero__image-wrap">
+            <img src="images/hero-cake.jpg" alt="Artisan tiered chocolate berry celebration cake by Aaranya Bakehouse" width="600" height="675" loading="eager">
+          </div>
+          <div class="floating-card">
+            <div class="floating-card__icon">🎂</div>
+            <div>
+              <div class="floating-card__title">Handcrafted Fresh Daily</div>
+              <div class="floating-card__subtitle">Zero artificial preservatives</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CORE OFFERINGS ==================== -->
+    <section class="section" aria-labelledby="offerings-title">
+      <div class="container">
+        <div class="section__title">
+          <span>Our Signature Menu</span>
+          <h2 id="offerings-title">Artisan Offerings Crafted to Delight</h2>
+          <p>Every creation is freshly baked to order using premium couverture chocolate, pure dairy butter, and seasonal fruits.</p>
+        </div>
+
+        <div class="grid grid--4">
+          <!-- Card 1: Custom Cakes -->
+          <article class="product-card">
+            <div class="product-card__image">
+              <img src="images/cake-custom.jpg" alt="Custom Celebration Cakes" loading="lazy">
+              <span class="product-card__badge">Most Popular</span>
+            </div>
+            <div class="product-card__body">
+              <div class="product-card__header">
+                <h3>Custom Cakes</h3>
+                <span class="product-card__price">From ₹1,200</span>
+              </div>
+              <p class="product-card__text">
+                Custom celebration cakes tailored around your theme, preferred flavour and dietary preferences. Ideal for birthdays and milestones.
+              </p>
+              <div class="product-card__tags">
+                <span class="tag">Eggless Available</span>
+                <span class="tag">Bespoke Design</span>
+              </div>
+              <a href="contact.html?service=Custom%20Cakes" class="btn btn--secondary btn--sm">Enquire Now</a>
+            </div>
+          </article>
+
+          <!-- Card 2: Cupcakes -->
+          <article class="product-card">
+            <div class="product-card__image">
+              <img src="images/cupcakes.jpg" alt="Artisanal Cupcake Box" loading="lazy">
+              <span class="product-card__badge">Gifting Favourite</span>
+            </div>
+            <div class="product-card__body">
+              <div class="product-card__header">
+                <h3>Artisan Cupcakes</h3>
+                <span class="product-card__price">From ₹450 / 6pcs</span>
+              </div>
+              <p class="product-card__text">
+                Fluffy sponge cupcakes crowned with whipped ganache and delicate buttercream rosettes. Perfect for intimate gatherings.
+              </p>
+              <div class="product-card__tags">
+                <span class="tag">Packs of 6 & 12</span>
+                <span class="tag">Assorted Flavours</span>
+              </div>
+              <a href="contact.html?service=Cupcakes" class="btn btn--secondary btn--sm">Enquire Now</a>
+            </div>
+          </article>
+
+          <!-- Card 3: Cookies -->
+          <article class="product-card">
+            <div class="product-card__image">
+              <img src="images/cookies.jpg" alt="Gourmet NYC Style Stuffed Cookies" loading="lazy">
+              <span class="product-card__badge">Bestseller</span>
+            </div>
+            <div class="product-card__body">
+              <div class="product-card__header">
+                <h3>Gourmet Cookies</h3>
+                <span class="product-card__price">From ₹380 / Box</span>
+              </div>
+              <p class="product-card__text">
+                Thick, gooey-centered NYC-style cookies with rich Belgian chocolate chunks, sea salt flakes, and roasted hazelnuts.
+              </p>
+              <div class="product-card__tags">
+                <span class="tag">Callebaut Chocolate</span>
+                <span class="tag">Eggless Available</span>
+              </div>
+              <a href="contact.html?service=Cookies" class="btn btn--secondary btn--sm">Enquire Now</a>
+            </div>
+          </article>
+
+          <!-- Card 4: Dessert Boxes -->
+          <article class="product-card">
+            <div class="product-card__image">
+              <img src="images/dessert-box.jpg" alt="Curated Dessert Gift Hampers" loading="lazy">
+              <span class="product-card__badge">Celebration Box</span>
+            </div>
+            <div class="product-card__body">
+              <div class="product-card__header">
+                <h3>Dessert Boxes</h3>
+                <span class="product-card__price">From ₹850</span>
+              </div>
+              <p class="product-card__text">
+                Thoughtfully curated tasting hampers with mini tarts, brownie bites, macarons, and festive treats in eco-luxe ribbon packaging.
+              </p>
+              <div class="product-card__tags">
+                <span class="tag">Custom Note Included</span>
+                <span class="tag">Gift Packaging</span>
+              </div>
+              <a href="contact.html?service=Dessert%20Boxes" class="btn btn--secondary btn--sm">Enquire Now</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== WHY CHOOSE US ==================== -->
+    <section class="section section--alt" aria-labelledby="why-title">
+      <div class="container">
+        <div class="section__title">
+          <span>The Aaranya Promise</span>
+          <h2 id="why-title">Why Customers Trust Our Bakery</h2>
+          <p>We blend classic French pastry techniques with heartfelt warmth and personalised consultation.</p>
+        </div>
+
+        <div class="grid grid--4">
+          <div class="feature-box">
+            <div class="feature-box__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+              </svg>
+            </div>
+            <h3 class="feature-box__title">Pure Ingredients</h3>
+            <p class="feature-box__text">We strictly use 100% pure dairy butter, premium cocoa, and unbleached flours. No compound chocolates or artificial shortening.</p>
+          </div>
+
+          <div class="feature-box">
+            <div class="feature-box__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+            </div>
+            <h3 class="feature-box__title">Baked Fresh to Order</h3>
+            <p class="feature-box__text">No pre-baked frozen sponge cakes. Every single sponge is baked fresh right before assembly for unmatched tenderness.</p>
+          </div>
+
+          <div class="feature-box">
+            <div class="feature-box__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+            </div>
+            <h3 class="feature-box__title">Personalised Vision</h3>
+            <p class="feature-box__text">Direct consultation with the baker to match your party aesthetic, favourite flavour pairings, and custom cake toppers.</p>
+          </div>
+
+          <div class="feature-box">
+            <div class="feature-box__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                <line x1="8" y1="21" x2="16" y2="21"/>
+                <line x1="12" y1="17" x2="12" y2="21"/>
+              </svg>
+            </div>
+            <h3 class="feature-box__title">Eco-Friendly Packaging</h3>
+            <p class="feature-box__text">Elegantly housed in biodegradable boxes, satin cloth ribbons, and sturdy compostable cake boards.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== INTERACTIVE PRICING ESTIMATOR ==================== -->
+    <section class="section" aria-labelledby="calc-title">
+      <div class="container">
+        <div class="section__title">
+          <span>Interactive Calculator</span>
+          <h2 id="calc-title">Custom Cake Price Estimator</h2>
+          <p>Get an instant transparent estimate for your celebration cake before submitting an enquiry.</p>
+        </div>
+
+        <div class="estimator-card">
+          <div class="estimator-grid">
+            <div class="form-group">
+              <label for="calcSize" class="form-label">Cake Size / Weight</label>
+              <select id="calcSize" class="form-control">
+                <option value="0.5kg">0.5 kg (~4–6 servings)</option>
+                <option value="1.0kg" selected>1.0 kg (~8–10 servings)</option>
+                <option value="1.5kg">1.5 kg (~12–15 servings)</option>
+                <option value="2.0kg">2.0 kg (~18–22 servings)</option>
+                <option value="3.0kg+">3.0 kg+ (Party size)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="calcFlavor" class="form-label">Flavour Selection</label>
+              <select id="calcFlavor" class="form-control">
+                <option value="classic" selected>Madagascar Vanilla / Dutch Truffle</option>
+                <option value="belgian">Belgian Dark Chocolate Ganache (+15%)</option>
+                <option value="red-velvet">Velvet Cream Cheese (+10%)</option>
+                <option value="fruit">Fresh Seasonal Berry Compote (+20%)</option>
+                <option value="pistachio">Pistachio Rose Cardamom (+25%)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="calcTiers" class="form-label">Cake Tier Architecture</label>
+              <select id="calcTiers" class="form-control">
+                <option value="1" selected>Single Tier (Classic Round/Heart)</option>
+                <option value="2">Two Tiers (Stacked Celebration)</option>
+                <option value="3">Three Tiers (Grand Event)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="estimator-result">
+            <div>
+              <div class="estimator-result__label">Estimated Price Range</div>
+              <small style="color: var(--color-text-light);">Final quote confirmed based on custom floral/fondant decor</small>
+            </div>
+            <div class="estimator-result__price" id="calcPrice">₹1,350</div>
+            <div>
+              <a href="contact.html" id="calcBookBtn" class="btn btn--primary">Book This Custom Cake</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TESTIMONIALS ==================== -->
+    <section class="section section--alt" aria-labelledby="reviews-title">
+      <div class="container">
+        <div class="section__title">
+          <span>Customer Love</span>
+          <h2 id="reviews-title">What Celebration Planners Say</h2>
+          <p>Real experiences from families and corporate teams who celebrated with Aaranya Bakehouse.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="testimonial-card">
+            <div>
+              <div class="testimonial-stars">★★★★★</div>
+              <p class="testimonial-text">
+                "The customized lavender floral cake for my daughter's first birthday was a masterpiece! Not overly sweet, incredibly moist, and every single guest asked where we ordered it from."
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">SP</div>
+              <div>
+                <div class="testimonial-name">Simran Puri</div>
+                <div class="testimonial-occasion">1st Birthday Celebration</div>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <div>
+              <div class="testimonial-stars">★★★★★</div>
+              <p class="testimonial-text">
+                "Ordered 40 curated dessert boxes for our Diwali executive gifting. The packaging was top tier and the stuffed NYC cookies were unforgettable. Highly recommended!"
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">RK</div>
+              <div>
+                <div class="testimonial-name">Rohit Kapoor</div>
+                <div class="testimonial-occasion">Corporate Festive Gifting</div>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <div>
+              <div class="testimonial-stars">★★★★★</div>
+              <p class="testimonial-text">
+                "The enquiry process was so straightforward and warm. Himani listened to every aesthetic reference I shared and delivered our dream 25th anniversary cake on time."
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">AS</div>
+              <div>
+                <div class="testimonial-name">Ananya Sharma</div>
+                <div class="testimonial-occasion">Silver Jubilee Anniversary</div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== POEM: INSTAGRAM FEED & NEWSLETTER ==================== -->
+    <section class="section" aria-labelledby="community-title">
+      <div class="container">
+        <div class="section__title">
+          <span>Digital Community</span>
+          <h2 id="community-title">Follow Our Daily Bakes @aaranyabakehouse</h2>
+          <p>Tag <strong>#AaranyaCelebrations</strong> on Instagram to be featured on our community wall.</p>
+        </div>
+
+        <div class="instagram-grid">
+          <div class="instagram-item">
+            <img src="images/cake-custom.jpg" alt="Instagram celebration cake photo">
+            <div class="instagram-overlay"><span>♥ 342</span></div>
+          </div>
+          <div class="instagram-item">
+            <img src="images/cupcakes.jpg" alt="Instagram cupcakes photo">
+            <div class="instagram-overlay"><span>♥ 219</span></div>
+          </div>
+          <div class="instagram-item">
+            <img src="images/cookies.jpg" alt="Instagram cookie box photo">
+            <div class="instagram-overlay"><span>♥ 481</span></div>
+          </div>
+          <div class="instagram-item">
+            <img src="images/packaging-gift.jpg" alt="Instagram packaged gift box photo">
+            <div class="instagram-overlay"><span>♥ 312</span></div>
+          </div>
+        </div>
+
+        <!-- Newsletter Lead Magnet -->
+        <div class="newsletter-box">
+          <h3>Join The Aaranya Circle</h3>
+          <p>Receive exclusive seasonal dessert menu previews, early festive ordering slots, and <strong>10% off</strong> your first celebration order.</p>
+          <form class="newsletter-form" id="newsletterForm">
+            <input type="email" placeholder="Enter your email address" required aria-label="Email address for newsletter">
+            <button type="submit" class="btn btn--primary">Get 10% Discount</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <h4 class="footer__title" style="font-size: 1.4rem;">Aaranya Bakehouse</h4>
+          <p style="color: #DCCEC8; font-size: 0.95rem; margin-bottom: 1.2rem;">
+            A bespoke home-based bakery dedicated to handcrafted celebration cakes, cupcakes, cookies and curated dessert gift boxes.
+          </p>
+          <p style="font-size: 0.85rem; color: #B5A49D;">
+            <strong>Course Code:</strong> 2106 | Digital Innovation in Business<br>
+            <strong>Founder / Student:</strong> Himani Gupta (PGON26108)
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer__title">Quick Links</h4>
+          <ul class="footer__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products.html">Products / Services</a></li>
+            <li><a href="contact.html">Contact & Enquiries</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer__title">Our Offerings</h4>
+          <ul class="footer__links">
+            <li><a href="products.html#cakes">Custom Celebration Cakes</a></li>
+            <li><a href="products.html#cupcakes">Artisan Cupcake Boxes</a></li>
+            <li><a href="products.html#cookies">NYC Gourmet Cookies</a></li>
+            <li><a href="products.html#boxes">Curated Dessert Boxes</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer__title">Order Guidelines</h4>
+          <p style="font-size: 0.9rem; color: #DCCEC8;">
+            Please place custom cake orders at least <strong>48–72 hours</strong> in advance. For rush orders or corporate gifting, connect via WhatsApp.
+          </p>
+          <a href="contact.html" class="btn btn--primary btn--sm" style="margin-top: 0.5rem;">Send Custom Enquiry</a>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <div>© 2026 Aaranya Bakehouse. Designed for Digital Innovation in Business Course (2106).</div>
+        <div>Made with pure butter, Belgian chocolate & love.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Quick Button -->
+  <a href="https://wa.me/919876543210?text=Hi%20Aaranya%20Bakehouse!%20I%20would%20like%20to%20enquire%20about%20a%20custom%20cake" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.41a8.165 8.165 0 0 1 2.4 5.83c0 4.54-3.7 8.24-8.24 8.24-1.44 0-2.86-.38-4.11-1.1l-.29-.17-3.11.82.83-3.03-.19-.3a8.188 8.188 0 0 1-1.25-4.45c0-4.54 3.7-8.24 8.24-8.24m4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.24-.74-.66-1.25-1.48-1.39-1.73-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.44.13-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.34-.76-1.84-.2-.49-.4-.42-.56-.43h-.47c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.45 1.03 2.62.13.17 1.78 2.72 4.31 3.81.6.26 1.07.42 1.44.54.61.19 1.16.17 1.6.1.49-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.1-.23-.16-.48-.29z"/>
+    </svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
